@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="build/css/vendor.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="build/js/vendor.min.js"></script>
+  <script type="text/javascript" src="build/js/app.js"></script>
+  <title>Doctors Searcher</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Doctor Information</h1>
+    </div>
+    <hr>
+    <form id= "issueOutput" onsubmit="return false;">
+      <label for="issue">Please enter your medical issue</label>
+      <input id="issue" type="text">
+      <button class="btn" type="submit">Show doctors list</button>
+    </form>
+    <ul id="showList"></ul>
+    <br>
+    <br>
+
+    <form id= "doctorOutput" onsubmit="return false;">
+      <label for="doctorName">Please enter doctor's name</label>
+      <input id="doctorName" type="text">
+      <button class="btn" type="submit">Show details</button>
+    </form>

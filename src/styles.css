@@ -1,3 +1,10 @@
 body {
   background-color: #7FDBFF;
 }
+
+.jumbotron {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
